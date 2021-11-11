@@ -20,11 +20,11 @@ nav{
     justify-content: space-between;
     background-color: #335a75;
 }
-#navList{
+.navBar{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-  
+    
 
 }
 a:hover {
@@ -85,18 +85,28 @@ a:hover {
         width: 30px;
         height: 21px;
     }
-    .navBar a{
   
-    }
-    nav{
-        flex-direction: column;
+    .navBar *{
+        display: none;
         
-    }
-    #navList{
-        display: inline-flex;
-        float: right;
+       
         flex-direction: column;
 
+    }
+    .active *{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        transition: 10px 5s ease-out;
+    }
+    .active {
+        
+        transition: 10px 5s ease-out;
+        margin-top: 3rem;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .frontPage_section{
         
