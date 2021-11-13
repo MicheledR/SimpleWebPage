@@ -80,7 +80,31 @@ a:hover {
     background-color: white;
     margin: 10%;
 }
-
+.frontPage_section i,div a{
+    padding: 5px  ;
+}
+.frontPage_section i{
+    font-size: 25px;
+}
+.frontPage_section i:hover{
+opacity: 0.7;
+}
+.project_section h2{
+text-align: center;}
+.project{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.project>div{
+    width: 35%;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 7.5%;
+    justify-content: space-between;
+    background-color: #335a75;
+    
+}
 @media screen and (max-width:600px) {
     .frontPage_section img{
        order: 1;
@@ -141,7 +165,7 @@ a:hover {
     background-color: #6dc5d4;
 }
 .hire_button{
-    margin: 10%;
+    margin: 20px;
 }
 .hire_button button{
     background-color: #335a75;
