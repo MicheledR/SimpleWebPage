@@ -102,7 +102,7 @@ text-align: center;}
     text-align: center;
     margin: 7.5%;
     justify-content: space-between;
-    background-color: #335a75;
+    background-color: #5691be;
     
 }
 @media screen and (max-width:600px) {
@@ -110,6 +110,16 @@ text-align: center;}
        order: 1;
         width: 150px;
         margin: 15%;
+    }
+    .project>div{
+        justify-content:center;
+        margin-left: 30%;
+        height: 25vh;
+        
+    }
+    .project{
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
     .icon{
         display: block;

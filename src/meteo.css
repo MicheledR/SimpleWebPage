@@ -1,0 +1,30 @@
+.color1 {color: #060606;}
+.color2 {color: #132334;}
+.color3 {color: #335a75;}
+.color4 {color: #5691be;}
+.color5 {color: #6dc5d4;}
+body{
+    background-color: #335a75;
+}
+.meteo_section{
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10%;
+    width: 300px;
+    box-shadow: 10px 10px #9ec9eb;
+}
+
+button{
+    width: 10vw;
+    background-color: #5691be;
+    border: none;
+    border-radius: 5px;
+    margin: 10%;
+}
+img{
+    margin: auto;
+}
